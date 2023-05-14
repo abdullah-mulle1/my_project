@@ -1,0 +1,163 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Baloo Chettan 2", cursive;
+  font-size: 18px;
+  /* overflow-x: hidden; */
+}
+
+ul {
+  list-style: none;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+li a:hover {
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+li a.mirasim:link {
+  background-color: white;
+}
+
+ul li {
+  margin-left: 20px;
+}
+
+.giriş {
+  margin-right: 50px;
+}
+
+#misir {
+  margin-left: 50px;
+}
+
+span {
+  color: white;
+  position: relative;
+  top: 3px;
+  left: 10px;
+}
+
+h1.hakk {
+  color: #dc3546;
+}
+
+span.Mısır-metin {
+  color: black;
+}
+
+#mshakkında {
+  margin: -240px 0px 0px 1000px;
+}
+
+.moataz:hover {
+  color: red;
+}
+
+strong a {
+  color: red;
+}
+
+.line {
+  width: 940px;
+  margin-top: -8px;
+}
+
+section.photos {
+  width: 50%;
+  margin: auto;
+  padding-top: 40px;
+}
+
+aside.photos {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: space-between;
+  border: 1px white solid;
+  height: 1090px;
+  float: right;
+  margin-right: 140px;
+  margin-top: 100px;
+}
+
+div.carousel-inner {
+  border-radius: 75px;
+}
+
+span.vikipedi {
+  color: #afafaf;
+}
+
+div h1.mısır-gezilecek {
+  color: #333;
+}
+
+h3.kahire {
+  color: #c9954a;
+}
+
+#kahire-photo {
+  margin: -240px 0px 0px 1000px;
+  width: 400px;
+  height: 230px;
+}
+
+span.el-Ezher-metin {
+  color: black;
+}
+
+h3.luxor {
+  color: #c9954a;
+}
+
+#luxor-photo {
+  margin: -240px 0px 0px 1000px;
+  width: 400px;
+  height: 230px;
+}
+
+h3.iskenderiye {
+  color: #c9954a;
+}
+
+#iskenderiye-photo {
+  margin: -240px 0px 0px 1000px;
+  width: 400px;
+  height: 230px;
+}
+
+hr.separation {
+  width: 1400px;
+  margin-left: 380px;
+}

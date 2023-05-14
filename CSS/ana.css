@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;600;700&family=Roboto:wght@100&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Baloo Chettan 2", cursive;
+  font-size: 18px;
+  /* overflow-x: hidden; */
+}
+
+ul {
+  list-style: none;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+li a:hover {
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+li a.ana:link {
+  background-color: white;
+}
+
+ul li {
+  margin-left: 20px;
+}
+
+.giriş {
+  margin-right: 50px;
+}
+
+#misir {
+  margin-left: 50px;
+}
+
+span {
+  color: white;
+  position: relative;
+  top: 3px;
+  left: 10px;
+}
+
+h1.hakk {
+  color: #333;
+}
+
+#mshakkında {
+  margin: -180px 10px 0px 1000px;
+}
+
+.moataz:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.container p {
+  font-family: "Baloo Chettan 2", cursive;
+  font-size: 16.5px;
+}
+
+strong a {
+  color: red;
+}
+
+.line {
+  width: 890px;
+  margin-top: -8px;
+}

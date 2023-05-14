@@ -1,0 +1,265 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Baloo Chettan 2", cursive;
+  font-size: 18px;
+  /* overflow-x: hidden; */
+}
+
+ul {
+  list-style: none;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+li a:hover {
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+li a.hakkında:link {
+  background-color: white;
+}
+
+ul li {
+  margin-left: 20px;
+}
+
+.giriş {
+  margin-right: 50px;
+}
+
+#misir {
+  margin-left: 50px;
+}
+
+span {
+  color: white;
+  position: relative;
+  top: 3px;
+  left: 10px;
+}
+
+h1.title {
+  color: #333;
+}
+
+#mshakkında {
+  margin: -180px 0px 0px 1000px;
+}
+
+.moataz:hover {
+  color: red;
+}
+
+strong a {
+  color: red;
+}
+
+.linehak {
+  width: 180px;
+  margin-top: -8px;
+}
+
+.rounded-pill {
+  border-radius: 9rem !important;
+}
+
+a img.personalimg {
+  height: 235px;
+  margin-left: -30px;
+  margin-top: 30px;
+}
+
+.container-info {
+  display: flex;
+}
+
+div aside {
+  border: 2px #e5e5e5 solid;
+  border-radius: 15px;
+  background-color: #e5e5e5;
+  padding: 10px;
+  width: 1500px;
+  height: 300px;
+  margin-left: 185px;
+  margin-right: -150px;
+}
+
+div.center span {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-top: -13px;
+  height: 34px;
+}
+
+div.progress {
+  margin-top: 20px;
+  margin-left: 67px;
+  margin-right: -200px;
+}
+
+div.rightside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 180px;
+  margin-top: -13px;
+  height: 194px;
+}
+
+div.rightside span.linux {
+  color: #dc3546;
+}
+
+div.rightside span.front {
+  color: black;
+}
+
+div.rightside span#tasarım {
+  color: #0dcaf0;
+}
+
+aside span {
+  color: black;
+  padding: 4px;
+}
+
+div.metin {
+  padding-top: 25px;
+  font-size: 1rem;
+  display: flex;
+  /* background-color: #333; */
+}
+span.cv {
+  color: black;
+}
+.line-hobi {
+  width: 160px;
+  margin-top: -8px;
+}
+
+.container-mid-section {
+  display: flex;
+  justify-content: center;
+}
+
+.container-mid-section img.rounded-pill,
+.container-end-section img.rounded-pill {
+  border-radius: 4rem !important;
+}
+
+span.text {
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 25px;
+  left: 128px;
+}
+
+span.text1 {
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 25px;
+  margin-right: 13px;
+  left: 100px;
+}
+
+span.text2 {
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 25px;
+  margin-right: 13px;
+  left: 160px;
+}
+
+span.text3 {
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 25px;
+  margin-left: 40px;
+  left: 128px;
+}
+
+span.text4 {
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 25px;
+  margin-left: 13px;
+  left: 128px;
+}
+
+span.text5 {
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 25px;
+  margin-right: 17px;
+  left: 200px;
+}
+
+.container-text {
+  display: flex;
+  justify-content: space-around;
+  margin-left: -40px;
+  margin-top: -70px;
+}
+
+.yüzme {
+  width: 400px;
+  height: 400px;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.yüzme2 {
+  width: 400px;
+  height: 400px;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.yüzme3 {
+  width: 400px;
+  height: 400px;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.container-end-section {
+  display: flex;
+  justify-content: center;
+}
+
+.line-etkin {
+  width: 165px;
+  margin-top: -8px;
+}
