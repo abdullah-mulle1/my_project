@@ -1,0 +1,175 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Baloo Chettan 2", cursive;
+    font-size: 18px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Small */
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  
+  li a:hover {
+    background-color: white;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li a.iletişim:link {
+    background-color: white;
+  }
+  
+  ul li {
+    margin-left: 20px;
+  }
+  
+  .giriş {
+    margin-right: 50px;
+  }
+  
+  #misir {
+    margin-left: 50px;
+  }
+  
+  span {
+    color: white;
+    position: relative;
+    top: 3px;
+    left: 10px;
+  }
+  
+  .moataz:hover {
+    color: red;
+  }
+  
+  strong a {
+    color: red;
+  }
+  
+  .line {
+    width: 940px;
+    margin-top: -8px;
+  }
+  
+  a img.personalimg {
+    width: 100px;
+  }
+  
+  form[method="post"] {
+    width: 35%;
+    border: 3px solid #f1f1f1;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    margin: auto;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+  }
+  
+  label b {
+    color: #858585;
+  }
+  
+  button[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 34%;
+  }
+  
+  span.error {
+    color: #ff0000;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  button.Reset {
+    width: auto;
+    padding: 10px 18px;
+    background-color: white;
+    background-color: #f1f1f1;
+  }
+  
+  button.Reset:hover {
+    color: #dc3546;
+  }
+  
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  .container {
+    padding: 16px;
+    margin-left: 28px;
+  }
+  
+  span.şifre {
+    padding-top: 16px;
+    margin-left: 170px;
+    color: black;
+  }
+  
+  b {
+    margin-left: 8px;
+  }
+  
+  @media screen and (max-width: 300px) {
+    span.şifre {
+      display: block;
+      float: none;
+    }
+    .Reset {
+      width: 100%;
+    }
+  }
+  

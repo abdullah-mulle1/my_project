@@ -67,29 +67,53 @@
     </aside>
    
     <section>
-      <div class="container mt-5">
-        <h1 class="mısır-gezilecek">ANİME</h1>
-        <hr class="line"
-        <div class="container mt-3">
-          <h3 class="Ramy">Kuroko no Basket</h3>
-          <span class="el-Ezher-metin">
-            Kuroko no Basket, efsanevi serilerden biri olan Slam Dunk ile 
-            karşılaştırılmaktan kaçınamayacak yapımlardan biri. Karşılaş <br> tır mayı 
-            severiz biliyorum ama her basket serisi bir başka yapımla karşılaştıralacak
-             diye bir kural yok, olmamalı da. Kuroko <br> no Basket birçok eksiğe sahip olmasına 
-             karşın çoğu severi için istenileni verebiliyordu, benim için noksanlıkları da 
-             bariz şe <br> kilde belirgindi ama son zamanlarda, hatta son zamanları bırakın diğer 
-             zamanlarda bile gelmeyen basketbol temalı anime <br> lerin inadına gelmesini hoş karşıladıklarımdan
-              biri oldu. Karakter çözümlemelerinin fazlaca olmadığı sadece maç odaklı gi <br> den bir yapım,
-               yan hikayeleri bırakın karakter hayatlarındaki detayları da fazla irdelemeyen serilerden
-                biriydi Kuroko no <br> Basket. 
+        <div class="container mt-5">
+          <h1 class="mısır-gezilecek">ANİME</h1>
+          <hr class="line">
+          <div class="container mt-3">
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="Ramy">Kuroko no Basket</h3>
+                <span class="el-Ezher-metin">
+                  Kuroko no Basket, efsanevi serilerden biri olan Slam Dunk ile karşılaştırılmaktan kaçınamayacak yapımlardan biri. Karşılaş<br>tır mayı severiz biliyorum ama her basket serisi bir başka yapımla karşılaştıralacak diye bir kural yok, olmamalı da. Kuroko<br>no Basket birçok eksiğe sahip olmasına karşın çoğu severi için istenileni verebiliyordu, benim için noksanlıkları da<br>bariz şe<br>kilde belirgindi ama son zamanlarda, hatta son zamanları bırakın diğer zamanlarda bile gelmeyen basketbol temalı anime<br>lerin inadına gelmesini hoş karşıladıklarımdan biri oldu. Karakter çözümlemelerinin fazlaca olmadığı sadece maç odaklı gi<br>den bir yapım, yan hikayeleri bırakın karakter hayatlarındaki detayları da fazla irdelemeyen serilerden<br>biriydi Kuroko no<br>Basket.
                 </span>
-          <br> <br> <cite> <a href="https://animemangatr.com/konu/5114-kuroko-no-basket/"><span class="vikipedi">- Animemangatr'den</span></a></cite>
-         
+                <br><br>
+                <cite>
+                  <a href="https://animemangatr.com/konu/5114-kuroko-no-basket/">
+                    <span class="vikipedi">- Animemangatr'den</span>
+                  </a>
+                </cite>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
-    <br> <br> <hr class="separation">
+      </section>
+      
+    <div class="container mt-5">
+        <p>Click the button to get your coordinates.</p>
+
+        <button onclick="getLocation()">Try It</button>
+        
+        <p id="demo"></p>
+        
+        <script>
+        const x = document.getElementById("demo");
+        
+        function getLocation() {
+          try {
+            navigator.geolocation.getCurrentPosition(showPosition);
+          } catch {
+            x.innerHTML = err;
+          }
+        }
+        
+        function showPosition(position) {
+          x.innerHTML = "Latitude: " + position.coords.latitude + 
+          "<br>Longitude: " + position.coords.longitude;
+        }
+        </script>
+            
+    </div>
     <br> <br><br><br><br> <br><br><br><br><br><br><br><br>
     <footer>
         <nav class="navbar navbar-expand-sm bg-dark mt-1">

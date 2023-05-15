@@ -94,7 +94,7 @@ form[method="post"] {
 
 input[type="text"],
 textarea {
-  width: 34%;
+  width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
