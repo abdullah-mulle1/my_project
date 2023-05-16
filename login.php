@@ -1,6 +1,6 @@
 <?php 
-$kullancıAdı = "g201210584@sakarya.edu.tr";
-    if (empty($_POST["kullancı"]) || empty($_POST["şifre"]))
+$kullancıAdı = "b211210577@sakarya.edu.tr";
+    if (empty($_POST["kullanici"]) || empty($_POST["sifre"]))
     {
         echo ("<script>
         window.alert('Lütfen bütün boşlokları doldurmayı unutmayın');
@@ -8,7 +8,7 @@ $kullancıAdı = "g201210584@sakarya.edu.tr";
         </script>");
     }
     else {
-        $email = test_input($_POST["kullancı"]);
+        $email = test_input($_POST["kullanici"]);
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
             echo ("<script>
             window.alert('lütfen geçerli bir email giriniz');
@@ -17,7 +17,7 @@ $kullancıAdı = "g201210584@sakarya.edu.tr";
         }
     }
 
-    if (($_POST["kullancı"]) == ($kullancıAdı) && ($_POST["şifre"]) == ("g201210584"))
+    if (($_POST["kullanici"]) == ($kullancıAdı) && ($_POST["sifre"]) == ("b211210577"))
     {
        echo "HOŞ GELDİNİZ ". substr($kullancıAdı,0,10) ; 
     }
