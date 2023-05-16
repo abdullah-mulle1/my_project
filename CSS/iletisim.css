@@ -1,174 +1,251 @@
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-body {
-  font-family: "Baloo Chettan 2", cursive;
-  font-size: 18px;
-}
-
-ul {
-  list-style: none;
-}
-.container {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* Small */
-@media (min-width: 768px) {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Baloo Chettan 2", cursive;
+    font-size: 18px;
+  }
+  
+  ul {
+    list-style: none;
+  }
   .container {
-    width: 750px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
   }
-}
-/* Medium */
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
+  /* Small */
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
   }
-}
-/* Large */
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
+  /* Medium */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
   }
-}
-
-li a:hover {
-  background-color: white;
-}
-
-a {
-  text-decoration: none;
-}
-
-li a.iletişim:link {
-  background-color: white;
-}
-
-ul li {
-  margin-left: 20px;
-}
-
-.giriş {
-  margin-right: 50px;
-}
-
-#misir {
-  margin-left: 50px;
-}
-
-span {
-  color: white;
-  position: relative;
-  top: 3px;
-  left: 10px;
-}
-
-.moataz:hover {
-  color: red;
-}
-
-strong a {
-  color: red;
-}
-
-.line {
-  width: 940px;
-  margin-top: -8px;
-}
-
-a img.personalimg {
-  width: 100px;
-}
-
-form[method="post"] {
-  width: 25%;
-  border: 3px solid #f1f1f1;
-  border-radius: 8px;
-  background-color: #f1f1f1;
-  margin-left: 725px;
-}
-
-input[type="text"],
-textarea {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  box-sizing: border-box;
-  display: flex;
-}
-
-label b {
-  color: #858585;
-}
-
-button[type="submit"] {
-  background-color: black;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  width: 34%;
-}
-
-span.error {
-  color: #ff0000;
-}
-
-button:hover {
-  opacity: 0.8;
-}
-
-button.Reset {
-  width: auto;
-  padding: 10px 18px;
-  background-color: white;
-  background-color: #f1f1f1;
-}
-
-button.Reset:hover {
-  color: #dc3546;
-}
-
-.imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
-}
-
-img.avatar {
-  width: 40%;
-  border-radius: 50%;
-}
-
-.container {
-  padding: 16px;
-  margin-left: 28px;
-}
-
-span.şifre {
-  padding-top: 16px;
-  margin-left: 170px;
-  color: black;
-}
-
-b {
-  margin-left: 8px;
-}
-
-@media screen and (max-width: 300px) {
-  span.şifre {
-    display: block;
-    float: none;
+  /* Large */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
   }
-  .Reset {
+  
+  li a:hover {
+    background-color: white;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li a.iletişim:link {
+    background-color: white;
+  }
+  
+  ul li {
+    margin-left: 20px;
+  }
+  
+  .giriş {
+    margin-right: 50px;
+  }
+  
+  #misir {
+    margin-left: 50px;
+  }
+  
+  span {
+    color: white;
+    position: relative;
+    top: 3px;
+    left: 10px;
+  }
+  
+  .moataz:hover {
+    color: red;
+  }
+  
+  strong a {
+    color: red;
+  }
+  
+  .line {
+    width: 940px;
+    margin-top: -8px;
+  }
+  
+  a img.personalimg {
+    width: 100px;
+  }
+  
+  form[method="post"] {
+    width: 35%;
+    border: 3px solid #f1f1f1;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    margin: auto;
+  }
+  
+  input[type="text"],
+  textarea {
     width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
   }
+  
+  label b {
+    color: #858585;
+  }
+  
+  button[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 34%;
+  }
+  
+  span.error {
+    color: #ff0000;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  button.Reset {
+    width: auto;
+    padding: 10px 18px;
+    background-color: white;
+    background-color: #f1f1f1;
+  }
+  
+  button.Reset:hover {
+    color: #dc3546;
+  }
+  
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  .container {
+    padding: 16px;
+    margin-left: 28px;
+  }
+  
+  span.şifre {
+    padding-top: 16px;
+    margin-left: 170px;
+    color: black;
+  }
+  
+  b {
+    margin-left: 8px;
+  }
+  
+  @media screen and (max-width: 300px) {
+    span.şifre {
+      display: block;
+      float: none;
+    }
+    .Reset {
+      width: 100%;
+    }
+  }
+  
+
+  .logoresmi img{
+    background-color: #CCF2F4;
+    padding: 1px;
+    border-radius: 7px;
+    width: 250px;
+    margin: -3%;
+}
+header nav a{
+    color: #A4EBF3;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+}
+header nav a:hover{
+    background-color: #A4EBF3;
+    color: #2c2b2b;
+    transform: scale(1.07);
+}
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+}
+.sonsbrother{
+    color: #A4EBF3;
+    padding: 200px 20%;
+    background-image: url(https://hdwallpaperim.com/wp-content/uploads/2017/08/24/107862-server-dark-computer-data_center-748x499.jpg);
+    height: 700px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.sonsbrother .kisa-mesaj{
+    text-transform: capitalize;
+    text-shadow: #CCF2F4 1px 1px;
+}
+.sonsbrother a{
+    display: block;
+    width: 110px;
+}
+.sonsbrother .btn-outline-primary{
+    background-color: #A4EBF3;
+    color: #aaaaaa;
+    margin: 20px 0px;
+    padding: 3px;
+    transition: all 0.2s linear;
+}
+.sonsbrother .btn-outline-primary:hover{
+    background-color: #aaaaaa;
+    color: #A4EBF3;
+    transform: scale(1.2);
+}
+section.form-section {
+    background-color: #F4F9F9;
+    padding: 25px 0px;
+}
+.sosyalmedya .card{
+    margin: 15px;
+    background-color: #dbd7d79a;
+    transition: all 0.2s linear;
+}
+.sosyalmedya .card:hover{
+
+    transform: scale(1.07);
+}
+.sosyalmedya a:hover{
+    text-decoration: none;
+}
+
+section.sosyalmedya{
+    background-color: #dbd7d79a;
+    margin: 25px auto;
+    padding: 10px 0px;
+    background-image: url(https://hdwallpaperim.com/wp-content/uploads/2017/08/24/107862-server-dark-computer-data_center-748x499.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }

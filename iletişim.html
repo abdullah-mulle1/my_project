@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="iletişim.js"></script>
-    <link rel="stylesheet" href="CSS/iletisimi.css">
+    <script src="getform.js"></script>
+    <link rel="stylesheet" href="CSS/iletisim.css">
     <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -109,7 +109,7 @@ document.getElementsByName("mesaj");
    <section>
      <br>
 
-     <section>
+     <!-- <section>
         <form action="iletişim.php" method="post" name="myform" onsubmit="return(validateform());" class="container">
           <div class="imgcontainer text-center">
             <a href="#">
@@ -145,8 +145,71 @@ document.getElementsByName("mesaj");
             <button type="reset" class="btn btn-secondary">Sıfırla</button>
           </div>
         </form>
-      </section>
-      
+      </section> -->
+      <section class="form-section">
+        <!-- <div class="container w-50 mt-5"> -->
+            <form action="getform.php" method="post" name="ilet">
+                <div class="form-group">
+                    <label>AD :</label>
+                    <input class="form-control" type="text" name="adi" id="adi">
+                    <small class="form-text text-muted">adınızı giriniz</small>
+                    <small class="form-text text-muted" style="padding-left: 5px;" id="adisml"></small>
+                </div>
+                <div class="form-group">
+                    <label>SOYAD :</label>
+                    <input class="form-control" type="text" name="soyadi" id="soyadi">
+                    <small class="form-text text-muted">soyadınız giriniz</small>
+                    <small class="form-text text-muted" style="padding-left: 5px;" id="soyadisml"></small>
+                </div>
+                <div class="form-group">
+                    <label>E-POSTA ADRES :</label>
+                    <input class="form-control" type="text" name="eposta" id="eposta">
+                    <small class="form-text text-muted">mail adresinizi giriniz</small>
+                    <small class="form-text text-muted" style="padding-left: 5px;" id="epostasml"></small>
+                </div>
+                <div class="form-group">
+                    <label>CİNSİYET :</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" id="erkek" name="cinsiyet" value="Erkek">
+                        <label>Erkek</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" id="kadin" name="cinsiyet" value="Kadin">
+                        <label>Kadın</label>
+                    </div>
+                    <small class="form-text text-muted">cinsiyetinizi giriniz</small>
+                    <small class="form-text text-muted" id="cinsiyetsml"></small>
+                </div>
+                <div class="form-group">
+                    <label>KONU :</label>
+                    <select name="konu" id="konular" class="form-control">
+                        <option id="seciniz" value="seçiniz" selected>seçiniz</option>
+                        <option value="web">Web</option>
+                        <option value="C# ve .Net">C# ve .Net</option>
+                        <option value="veri">Veri Tabanları</option>
+                        <option value="yapay zeka">Yapay Zaka</option>
+                        <option value="diğer">Diğer</option>
+                    </select>
+                    <small class="form-text text-muted">iletmek istediğiniz iletinin konusnu seçiniz</small>
+                    <small class="form-text text-muted" id="secinizsml"></small>
+                </div>
+                <div class="form-group">
+                    <label>İLETİ :</label>
+                    <textarea class="form-control" name="mesag" id="mesag" cols="30" rows="10"></textarea>
+                    <small class="form-text text-muted">bize göndereceğiniz mesajı giriniz</small>
+                    <small class="form-text text-muted" style="padding-left: 5px;" id="mesagsml"></small>
+                </div>
+                <div>
+                    <label for="file" class="form-label"></label>
+                    <input class="form-control form-control-lg" id="file" name="file" type="file">
+                </div>
+                    <small class="form-text text-muted">ilgili dosyanız varsa</small>
+                <button class="btn btn-outline-dark" type="button" onclick="kontrolet()">KONTROL ET</button>
+                <button class="btn btn-outline-dark" type="submit" id="git" disabled="true">GÖNDER</button>
+                <input class="btn btn-outline-dark" type="reset" value="HEPSİNİ TEMİZLE">
+            </form>
+        </div>
+    </section>
     <footer>
         <nav class="navbar navbar-expand-sm bg-dark mt-1">
             <div class="container-fluid">
