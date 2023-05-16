@@ -61,9 +61,9 @@
             </div>
         </nav>
     </header>
-    <br>
     <section>
-        <form action="iletişim.php" method="post" name="myform" onsubmit="return(validateform());" class="container">
+        <br>
+        <form action="login.php" method="post" class="container">
           <div class="imgcontainer text-center">
             <a href="#">
               <img src="images/egypt-modern-vector-19048373.jpg" alt="" class="personalimg rounded-pill">
@@ -71,35 +71,27 @@
           </div>
       
           <div class="form-group">
-            <label for="ad"><b>Ad Soyad</b></label>
-            <input type="text" class="form-control" placeholder="Adınız ve soyadınız Giriniz" name="ad">
+            <label for="kullanici"><b>Kullanıcı Adı</b></label>
+            <input type="text" class="form-control" placeholder="Kullanıcı Adınızı Giriniz" name="kullanici">
           </div>
       
           <div class="form-group">
-            <label for="email"><b>Email</b></label>
-            <input type="text" class="form-control" placeholder="Email Giriniz" name="email">
-          </div>
-      
-          <div class="form-group">
-            <label for="telefon"><b>Telefon No</b></label>
-            <input type="text" class="form-control" placeholder="Telefon numaranınız Giriniz" name="telefon">
-          </div>
-      
-          <div class="form-group">
-            <label for="mesaj"><b>Mesaj</b></label>
-            <textarea placeholder="Mesaj yaz" name="mesaj" class="form-control" cols="40"></textarea>
+            <label for="sifre"><b>Şifre</b></label>
+            <input type="password" class="form-control" placeholder="Şifrenizi Giriniz" name="sifre">
           </div>
       
           <div class="form-group text-center">
-            <button type="submit" name="submit" class="btn btn-primary">Gönder</button>
+            <button type="submit" name="submit" class="btn btn-primary">Giriş Yap</button>
           </div>
       
           <div class="form-group text-center">
             <button type="reset" class="btn btn-secondary">Sıfırla</button>
+            <span class="sifre">Şifrem <a href="">Unuttum?</a></span>
           </div>
         </form>
+        <br> <br> <br><br><br><br><br><br>
       </section>
-      <br> <br>
+      
     <footer>
         <nav class="navbar navbar-expand-sm bg-dark mt-1">
             <div class="container-fluid">
