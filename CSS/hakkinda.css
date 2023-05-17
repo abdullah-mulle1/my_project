@@ -80,6 +80,10 @@ h1.title {
   color: red;
 }
 
+.center span{
+  color: black;
+}
+
 strong a {
   color: red;
 }
